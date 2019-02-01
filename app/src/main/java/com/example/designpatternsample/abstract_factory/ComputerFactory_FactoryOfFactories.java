@@ -1,5 +1,6 @@
 package com.example.designpatternsample.abstract_factory;
 
+
 import com.example.designpatternsample.factory.Computer;
 
 public class ComputerFactory_FactoryOfFactories {

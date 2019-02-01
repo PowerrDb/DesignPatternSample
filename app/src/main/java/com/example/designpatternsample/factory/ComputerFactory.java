@@ -1,5 +1,6 @@
 package com.example.designpatternsample.factory;
 
+
 public class ComputerFactory {
 
     public static Computer createCoumputer(ComputerType computerType, String ram, String cpu, String hdd) {
@@ -11,7 +12,7 @@ public class ComputerFactory {
                 computer = new Pc(ram, cpu, hdd);
                 break;
             case Server:
-                computer = new Server(ram, cpu, hdd);
+                computer = new com.example.designpatternsample.factory.Server(ram, cpu, hdd);
                 break;
                 default:
                     return null;
